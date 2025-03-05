@@ -5,6 +5,11 @@ import Browse from './Browse';
 import { RouterProvider } from "react-router-dom";
 const Body = () => {
 
+  const PrivateRoute = ({ element }) =>{
+    const token  = localStorage.getItem("accessToken");
+    return token ? element: <Login />;
+  }
+
   const appRouter = createBrowserRouter([
     {
           path: "/",
@@ -12,7 +17,7 @@ const Body = () => {
     },
     {
       path: "/browse",
-      element: <Browse/>
+      element: <PrivateRoute element={<Browse />} />,
     }
   ])
   return (

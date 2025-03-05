@@ -72,7 +72,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 - Login/SignUp Page
-    - Sign In / SignUp Form
+    - Sign In / SignUp 
+    - Formalidation Use Formink   
     Redirect to Browse Page
 - Browse (After Authentication )
     - Header
