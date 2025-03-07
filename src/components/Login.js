@@ -3,6 +3,7 @@ import Header from './Header';
 import { checkValidateData } from '../utils/validate';
 import { useNavigate } from 'react-router-dom';
 import { loginUser, registerUser } from '../api/auth';
+import { LOGO } from '../utils/constants';
 
 const Login = () => {
 
@@ -17,9 +18,7 @@ const Login = () => {
   useEffect(() => {
     const token = localStorage.getItem("token");
     console.log(token);
-    if(token){
-      navigate("/browse");
-    }
+   
   }, [navigate])
 
   const handleLogin = async (e) => {
@@ -63,7 +62,7 @@ const Login = () => {
       <div className="absolute inset-0 -z-10">
         <img
           className="w-full h-full object-cover"
-          src="https://assets.nflxext.com/ffe/siteui/vlv3/04ef06cc-5f81-4a8e-8db0-6430ba4af286/web/IN-en-20250224-TRIFECTA-perspective_3a9c67b5-1d1d-49be-8499-d179f6389935_large.jpg"
+          src={LOGO}
           alt="Netflix Background"
         />
         <div className="absolute inset-0 bg-black/60"></div>

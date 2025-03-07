@@ -104,4 +104,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     - Profile Update
     - Build Movie
     - Fetch movie TMDB
+    - Register TMBD MOVIE API 
+    - GET ACtion 
+    - GET DATA FROM TMBD now playing list 
             
