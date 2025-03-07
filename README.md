@@ -83,7 +83,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     - MovieSuggestion
         - Movie List
 
+# Netflix GPT
+
 - NetflexGPT
+    - Create React App
+    - Configuration TailwindCSS
+    - Header
+    - Routing of App
+    - Login Form
+    - Sign Up Form
+    - Form Validation
+    - UseRef Hook
+    - Django Authentication
+    - Create SignUp User Account
+    - Implement Sign In User API
+    - Create Redux Store With UserSlice
     - Search Bar
     - Movie Suggestions
+    - Implement Sign Out
+    - Profile Update
+    - Build Movie
+    - Fetch movie TMDB
             

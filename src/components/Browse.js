@@ -1,9 +1,21 @@
 import React from "react";
-
+import { useDispatch } from "react-redux";
+import { useNavigate } from "react-router-dom";
+import { removeUser } from "../utils/userSlice";
+import Header from "./Header";
 const Browse = () => {
+
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+
+  const handleLogout = () =>{
+    localStorage.removeItem("accessToken");
+    dispatch(removeUser());
+    navigate("/");
+  }
   return (
-    <div className="w-full h-screen flex justify-center items-center">
-      <h1 className="text-black text-3xl font-bold">Welcome to Browse Page</h1>
+    <div>
+      <Header />
     </div>
   );
 };
