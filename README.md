@@ -107,4 +107,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     - Register TMBD MOVIE API 
     - GET ACtion 
     - GET DATA FROM TMBD now playing list 
+    - Create Custom Hook for NowPlayingMovie
+    - Updated the store with the updated data
+    - Planning for the main conatiner and secondary container
+    - Fetch data for trailer video 
+    - update store with trailer video data
+    - embedded the Youtube video
+    - make it auto Play Mute
+    - Tailwind classes to make conatiner look awesome
             
