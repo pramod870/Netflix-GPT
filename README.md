@@ -115,4 +115,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     - embedded the Youtube video
     - make it auto Play Mute
     - Tailwind classes to make conatiner look awesome
+    - GPT Search Header
+    - GPT Search Bar
+    - Multi-Language Feature in our App
+    - Integreate GPT APIS , GET OPEN AI KEY 
             
