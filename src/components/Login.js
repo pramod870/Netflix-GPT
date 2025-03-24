@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import { loginUser, registerUser } from '../api/auth';
 import { LOGO } from '../utils/constants';
 
+
 const Login = () => {
 
   const [error, setError] = useState("");
@@ -17,7 +18,7 @@ const Login = () => {
 
   useEffect(() => {
     const token = localStorage.getItem("token");
-    console.log(token);
+
    
   }, [navigate])
 

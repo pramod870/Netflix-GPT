@@ -10,7 +10,7 @@ const userSlice =  createSlice({
     },
     reducers:{
         addUser: (state, action) =>{
-            console.log("Redux Action Payload:", action.payload);  // Debug log
+  
             state.userId = action.payload.userId;
             state.email = action.payload.email;
             state.profile_picture = action.payload.profile_picture;

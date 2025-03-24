@@ -16,4 +16,4 @@ export const checkValidateData = (email, password) => {
 
 // Example usage
 const result = checkValidateData("test@example.com", "1@password");
-console.log(result); // { isEmailValid: true, isPasswordValid: true }
+

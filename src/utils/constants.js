@@ -20,3 +20,8 @@ export const SUPPORTED_LANG = [{identifier:"en", name:"English"},
                                {identifier:"hindi", name:"hindi"},
                                {identifier:"spanish", name:"Spanish"}
                               ];
+
+
+
+
+export const OPENAI_KEY = "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";

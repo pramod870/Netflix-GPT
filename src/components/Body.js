@@ -23,7 +23,7 @@ const Body = () => {
     const user = useSelector(state => state.user); // Get user from Redux store
     const token = localStorage.getItem("accessToken"); // Get token from localStorage
 
-    console.log("User And Token", user, token);
+ 
   
     if (user.userId && token) {
       return <Navigate to="/browse" Browse />; // Redirect to /browse if already logged in
@@ -60,7 +60,7 @@ const Body = () => {
         });
 
         if (response.status === 200){
-          console.log("User Data:", response.data);
+       
           dispatch(
             addUser({
               userId:response.data.id,
@@ -72,7 +72,7 @@ const Body = () => {
           
         }
       } catch (error){
-        console.log("Data did not fetch:", error)
+ 
       }
     };
 
